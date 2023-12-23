@@ -6,4 +6,5 @@ data class ProductViewState(
     val isLoading: Boolean = false,
     val products: ProductList = emptyList(),
     val error: String? = null
+
 )
